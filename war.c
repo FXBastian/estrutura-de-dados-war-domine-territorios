@@ -915,7 +915,7 @@ void analisarRelacoesDiplomaticas(const Territorio* mapa, const Jogador* jogador
             
             printf("%-3d %-20s %-10s %-6d %s\n", 
                    i + 1,
-                   mapa[i].nome, 
+                   mapa[i].nome,
                    mapa[i].corExercito, 
                    mapa[i].numTropas,
                    dificuldade);
